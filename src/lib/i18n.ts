@@ -103,7 +103,7 @@ export const translations = {
       p3f4: 'Priority booking',
       p3f5: 'VIP lounge access',
       p3f6: 'Monthly body composition',
-      currency: 'SAR',
+      currency: 'AED',
       perMonth: '/month',
       getStarted: 'Get Started',
     },
