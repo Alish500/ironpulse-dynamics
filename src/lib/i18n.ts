@@ -261,7 +261,7 @@ export const translations = {
       p3f4: 'حجز أولوية',
       p3f5: 'صالة VIP',
       p3f6: 'تحليل جسم شهري',
-      currency: 'ر.س',
+      currency: 'د.إ',
       perMonth: '/شهر',
       getStarted: 'ابدأ الآن',
     },
