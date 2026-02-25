@@ -5,14 +5,16 @@ import strengthImg from '@/assets/strength.jpg';
 import cardioImg from '@/assets/cardio.jpg';
 import groupImg from '@/assets/group-class.jpg';
 import trainerImg from '@/assets/trainer-1.jpg';
+import nutritionImg from '@/assets/nutrition.jpg';
+import transformImg from '@/assets/transformation.jpg';
 
 const services = [
   { key: 's1', icon: Dumbbell, img: trainerImg },
   { key: 's2', icon: Zap, img: strengthImg },
   { key: 's3', icon: Flame, img: cardioImg },
   { key: 's4', icon: Users, img: groupImg },
-  { key: 's5', icon: Apple, img: null },
-  { key: 's6', icon: RotateCcw, img: null },
+  { key: 's5', icon: Apple, img: nutritionImg },
+  { key: 's6', icon: RotateCcw, img: transformImg },
 ];
 
 export default function Services() {
