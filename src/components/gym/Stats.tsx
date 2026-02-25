@@ -14,7 +14,7 @@ export default function Stats() {
   const { t } = useLanguage();
 
   return (
-    <section className="section-padding bg-secondary/30 border-y border-border">
+    <section className="py-10 md:py-14 px-4 bg-secondary/30 border-y border-border">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {stats.map((s, i) => (
