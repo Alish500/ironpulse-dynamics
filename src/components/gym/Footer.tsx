@@ -67,7 +67,7 @@ export default function Footer() {
           <p className="text-sm text-muted-foreground">{t('footer.rights')}</p>
           <a href="https://crypticadigital.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs text-muted-foreground hover:text-foreground transition-colors duration-200">
             <span>Made by</span>
-            <img src={crypticaLogo} alt="Cryptica Digital" className="h-5 w-auto opacity-70 hover:opacity-100 transition-opacity" />
+            <img src={crypticaLogo} alt="Cryptica Digital" className="h-8 w-auto opacity-70 hover:opacity-100 transition-opacity" />
             <span className="font-medium">Cryptica Digital</span>
           </a>
         </div>
