@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
   <!-- I vertical bar -->
-  <rect x="10" y="10" width="40" height="180" fill="#E63946"/>
+  <rect x="2" y="2" width="50" height="196" fill="#E63946"/>
   
   <!-- P vertical bar -->
-  <rect x="65" y="10" width="40" height="180" fill="#E63946"/>
+  <rect x="62" y="2" width="50" height="196" fill="#E63946"/>
   
   <!-- P bowl -->
-  <path d="M105 10 H145 C175 10 190 30 190 55 L190 75 C190 100 175 120 145 120 L105 120 Z" fill="#E63946"/>
+  <path d="M112 2 H160 C185 2 198 25 198 55 L198 80 C198 110 185 130 160 130 L112 130 Z" fill="#E63946"/>
   
   <!-- Pulse/heartbeat line cutting through -->
-  <polyline points="0,120 50,120 65,90 80,150 95,50 110,160 125,100 140,130 200,130" 
-    fill="none" stroke="white" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+  <polyline points="0,125 48,125 62,90 78,160 94,40 112,170 130,100 148,135 200,135" 
+    fill="none" stroke="white" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
 </svg>
