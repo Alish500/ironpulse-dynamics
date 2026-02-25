@@ -1,5 +1,6 @@
 import { Instagram, Twitter, Youtube } from 'lucide-react';
 import { useLanguage } from '@/hooks/useLanguage';
+import crypticaLogo from '@/assets/Cryptica-Digital.svg';
 
 const navItems = ['home', 'about', 'services', 'trainers', 'pricing', 'contact'];
 
@@ -62,8 +63,12 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-border text-center">
+        <div className="mt-12 pt-8 border-t border-border text-center flex flex-col items-center gap-3">
           <p className="text-sm text-muted-foreground">{t('footer.rights')}</p>
+          <a href="https://crypticadigital.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs text-muted-foreground hover:text-foreground transition-colors duration-200">
+            <span>Made by</span>
+            <img src={crypticaLogo} alt="Cryptica Digital" className="h-5 w-auto opacity-70 hover:opacity-100 transition-opacity" />
+          </a>
         </div>
       </div>
     </footer>
